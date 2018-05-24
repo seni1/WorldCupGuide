@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="primary_color">#6200ea</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="primary_dark_color">#0a00b6</color>
+
+    <!-- Background color for app -->
+    <color name="tint_background">#e0f7fa</color>
+
+    <!-- Background color for the jazz category -->
+    <color name="category_jazz">#40c4ff</color>
+
+    <!-- Background color for the lounge category -->
+    <color name="category_lounge">#18ffff</color>
+
+    <!-- Background color for the chillout category -->
+    <color name="category_chillout">#64ffda</color>
+
+    <!-- Background color for the bossa nova category -->
+    <color name="category_bossa_nova">#69f0ae</color>
+
+    <!-- Background color for the cafe de paris category -->
+    <color name="category_cafe_paris">#b2ff59</color>
+
+    <!-- Background color for the phrases category -->
+    <color name="category_solo_piano">#eeff41</color>
+
+    <!-- Text Color for genres -->
+    <color name="text_color">#4e342e</color>
+</resources>

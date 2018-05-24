@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tint_background"
+    android:orientation="vertical"
+    tools:context="com.example.android.worldcupguide.MainActivity">
+
+    <!-- Set the TabLayout-->
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.design.widget.TabLayout>
+
+
+
+    <!-- Set the ViewPager -->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!--<TextView-->
+        <!--android:id="@+id/moscow_tv"-->
+        <!--style="@style/GenreStyle"-->
+        <!--android:background="@color/category_jazz"-->
+        <!--android:text="Moscow"/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/st_pete_tv"-->
+        <!--style="@style/GenreStyle"-->
+        <!--android:background="@color/category_lounge"-->
+        <!--android:text="St. Petersburg" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/kazan_tv"-->
+        <!--style="@style/GenreStyle"-->
+        <!--android:background="@color/category_chillout"-->
+        <!--android:text="Kazan" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/sochi_tv"-->
+        <!--style="@style/GenreStyle"-->
+        <!--android:background="@color/category_bossa_nova"-->
+        <!--android:text="Sochi" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/sama_tv"-->
+        <!--style="@style/GenreStyle"-->
+        <!--android:background="@color/category_cafe_paris"-->
+        <!--android:text="Samara" />-->
+
+</LinearLayout>
