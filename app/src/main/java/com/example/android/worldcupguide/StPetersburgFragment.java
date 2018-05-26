@@ -32,10 +32,10 @@ public class StPetersburgFragment extends Fragment {
         ArrayList<Match> matches = new ArrayList<>();
 
         //Add the match information to the ArrayList
-        matches.add(new Match("MOROCCO vs IRAN", "15.06.2018, Friday, 18:00", R.drawable.moroc_iran));
-        matches.add(new Match("RUSSIA vs EGYPT", "19.06.2018, Tuesday, 21:00", R.drawable.rus_egypt));
-        matches.add(new Match("BRAZIL vs COSTA-RICAL", "22.06.2018, Friday, 18:00", R.drawable.braz_costa));
-        matches.add(new Match("NIGERIA vs ARGENTINA", "20.06.2018, Wednesday, 15:00", R.drawable.niger_argen));
+        matches.add(new Match("MOROCCO vs IRAN", "15.06.2018, Friday, 18:00", "St. Petersburg", R.drawable.moroc_iran));
+        matches.add(new Match("RUSSIA vs EGYPT", "19.06.2018, Tuesday, 21:00", "St. Petersburg", R.drawable.rus_egypt));
+        matches.add(new Match("BRAZIL vs COSTA-RICAL", "22.06.2018, Friday, 18:00", "St. Petersburg", R.drawable.braz_costa));
+        matches.add(new Match("NIGERIA vs ARGENTINA", "20.06.2018, Wednesday, 15:00", "St. Petersburg", R.drawable.niger_argen));
 
 
         //Create a {@link ArrayAdapter}, whose data source is a list of Strings. The
@@ -55,7 +55,6 @@ public class StPetersburgFragment extends Fragment {
         //Do this by calling the setAdapter method on the {@link ListView} object and pass in
         //1 argument, which is the {@link ArrayAdapter} with the variable name: "adapter"
         listView.setAdapter(adapter);
-
 
         return rootView;
     }

@@ -16,41 +16,11 @@
     </android.support.design.widget.TabLayout>
 
 
-
     <!-- Set the ViewPager -->
     <android.support.v4.view.ViewPager
         android:id="@+id/viewpager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
-    <!--<TextView-->
-        <!--android:id="@+id/moscow_tv"-->
-        <!--style="@style/GenreStyle"-->
-        <!--android:background="@color/category_jazz"-->
-        <!--android:text="Moscow"/>-->
-
-    <!--<TextView-->
-        <!--android:id="@+id/st_pete_tv"-->
-        <!--style="@style/GenreStyle"-->
-        <!--android:background="@color/category_lounge"-->
-        <!--android:text="St. Petersburg" />-->
-
-    <!--<TextView-->
-        <!--android:id="@+id/kazan_tv"-->
-        <!--style="@style/GenreStyle"-->
-        <!--android:background="@color/category_chillout"-->
-        <!--android:text="Kazan" />-->
-
-    <!--<TextView-->
-        <!--android:id="@+id/sochi_tv"-->
-        <!--style="@style/GenreStyle"-->
-        <!--android:background="@color/category_bossa_nova"-->
-        <!--android:text="Sochi" />-->
-
-    <!--<TextView-->
-        <!--android:id="@+id/sama_tv"-->
-        <!--style="@style/GenreStyle"-->
-        <!--android:background="@color/category_cafe_paris"-->
-        <!--android:text="Samara" />-->
 
 </LinearLayout>

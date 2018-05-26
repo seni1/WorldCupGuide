@@ -3,9 +3,9 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="category_moscow">MOSCOW</string>
-    <string name="category_st_pete">ST. PETERSBURG</string>
+    <string name="category_moscow">MSK</string>
+    <string name="category_st_pete">PETER</string>
     <string name="category_kazan">KAZAN</string>
     <string name="category_sochi">SOCHI</string>
-    <string name="category_samara">SAMARA</string>
+    <string name="category_samara">SAMAR</string>
 </resources>

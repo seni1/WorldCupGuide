@@ -1,49 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:minHeight="@dimen/list_item_height"
+    android:orientation="horizontal"
     android:padding="16dp">
 
     <ImageView
         android:id="@+id/flag_image"
         android:layout_width="88dp"
         android:layout_height="wrap_content"
-        android:src="@drawable/saud_rus"/>
+        android:src="@drawable/saud_rus" />
 
-    <LinearLayout
-        android:id="@+id/text_container"
-        xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
-        android:orientation="vertical"
+        android:id="@+id/text_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:orientation="vertical"
         android:padding="16dp">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:layout_gravity="bottom"
-        tools:text="RUSSIA vs SAUDIA ARABIA"
-        android:id="@+id/match_tv"/>
+        <TextView
+            android:id="@+id/match_tv"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            tools:text="RUSSIA vs SAUDIA ARABIA" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:layout_gravity="top"
-        tools:text="Date: 14.06.2018, Thursday"
-        android:id="@+id/date_time_tv"/>
+        <TextView
+            android:id="@+id/date_time_tv"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            tools:text="Date: 14.06.2018, Thursday" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:text="View Venue"
-        android:id="@+id/venue_tv"/>
+
+        <TextView
+            android:id="@+id/venue_tv"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            tools:text="Лужники" />
 
     </LinearLayout>
 

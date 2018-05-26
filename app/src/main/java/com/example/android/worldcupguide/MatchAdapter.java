@@ -25,8 +25,6 @@ import java.util.ArrayList;
  */
 
 
-
-
 public class MatchAdapter extends ArrayAdapter<Match> {
 
     public MatchAdapter (Context context, ArrayList<Match> matches) {
@@ -64,7 +62,7 @@ public class MatchAdapter extends ArrayAdapter<Match> {
         //Get the {@link Match} object located at this position in the list
         Match currentMatch = getItem(position);
 
-        //Find the TextView in the list_item.xml layout with the ID
+        //Find the TextView in the list_item.xml layout with the ID match_tv
         TextView matchTextView = listItemView.findViewById(R.id.match_tv);
 
         //Get the Match from the current Match object and set this text
@@ -74,9 +72,16 @@ public class MatchAdapter extends ArrayAdapter<Match> {
         //Find the TextView in the list_item.xml layout with the ID date_time_tv
         TextView dateTextView = listItemView.findViewById(R.id.date_time_tv);
 
-        //Get the Date, Day and Time from the current Match object ans set this text
+        //Get the Date, Day and Time from the current Match object and set this text
         //on the dateTextView
         dateTextView.setText(currentMatch.getDateDayTime());
+
+        //Find the TextView in the list_item.xml layout with the ID venue_tv
+        TextView venueTextView = listItemView.findViewById(R.id.venue_tv);
+
+        //Get the Venue, from the current Match object and set this text
+        //on the venueTextView
+        venueTextView.setText(currentMatch.getVenuePlaying());
 
         //Find the ImageView in the list_item.xml layout with the ID match_image
         ImageView matchImageView = listItemView.findViewById(R.id.flag_image);

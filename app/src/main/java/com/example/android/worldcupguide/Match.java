@@ -16,6 +16,9 @@ public class Match {
     /** Date, day and time the match is played */
     private String mDateDayTime;
 
+    /** Venue where the match is played */
+    private String mVenuePlaying;
+
     /** Image resource ID for the word */
     private int mImageResourceId;
 
@@ -24,12 +27,14 @@ public class Match {
      * @param teamsPlaying
      * @param dateDayTime
      * @param imageResourceId
+     * @param venuePlaying
      */
 
-    public Match (String teamsPlaying, String dateDayTime, int imageResourceId) {
+    public Match (String teamsPlaying, String dateDayTime, String venuePlaying, int imageResourceId) {
         //Initializing the variables
         mTeamsPlaying = teamsPlaying;
         mDateDayTime = dateDayTime;
+        mVenuePlaying = venuePlaying;
         //Added the imageResourceId
         mImageResourceId = imageResourceId;
     }
@@ -48,6 +53,14 @@ public class Match {
 
     public String getDateDayTime() {
         return mDateDayTime;
+    }
+
+    /**
+     * Get the VenuePlaying method
+     */
+
+    public String  getVenuePlaying() {
+        return mVenuePlaying;
     }
 
     /**

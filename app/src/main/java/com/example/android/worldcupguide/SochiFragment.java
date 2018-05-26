@@ -33,10 +33,10 @@ public class SochiFragment extends Fragment {
         ArrayList<Match> matches = new ArrayList<>();
 
         //Add the match information to the ArrayList
-        matches.add(new Match("PORTUGAL vs SPAIN", "15.06.2018, Friday, 21:00", R.drawable.port_spain));
-        matches.add(new Match("BELGIUM vs PANAMA", "18.06.2018, Monday, 18:00", R.drawable.belg_panama));
-        matches.add(new Match("GERMANY vs SWEDEN", "23.06.2018, Saturday, 18:00", R.drawable.germ_sweden));
-        matches.add(new Match("AUSTRALIA vs PERU", "26.06.2018, Tuesday, 17:00", R.drawable.austr_peru));
+        matches.add(new Match("PORTUGAL vs SPAIN", "15.06.2018, Friday, 21:00", "Fisht", R.drawable.port_spain));
+        matches.add(new Match("BELGIUM vs PANAMA", "18.06.2018, Monday, 18:00", "Fisht", R.drawable.belg_panama));
+        matches.add(new Match("GERMANY vs SWEDEN", "23.06.2018, Saturday, 18:00", "Fisht", R.drawable.germ_sweden));
+        matches.add(new Match("AUSTRALIA vs PERU", "26.06.2018, Tuesday, 17:00", "Fisht",R.drawable.austr_peru));
 
 
         //Create a {@link ArrayAdapter}, whose data source is a list of Strings. The

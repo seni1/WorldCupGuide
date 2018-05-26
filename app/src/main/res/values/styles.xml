@@ -8,6 +8,10 @@
         <!--<item name="colorAccent">@color/colorAccent</item>-->
     </style>
 
+    <!--<style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">-->
+        <!--<item name="tabIndicatorColor"#f50057</item>-->
+    <!--</style>-->
+
     <!-- Style for a category of music genre -->
     <style name="GenreStyle">
         <item name="android:layout_width">match_parent</item>
