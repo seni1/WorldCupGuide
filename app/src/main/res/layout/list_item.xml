@@ -10,7 +10,7 @@
     <ImageView
         android:id="@+id/flag_image"
         android:layout_width="88dp"
-        android:layout_height="wrap_content"
+        android:layout_height="88dp"
         android:src="@drawable/saud_rus" />
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
