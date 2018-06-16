@@ -40,7 +40,7 @@ public class Match {
     }
 
     /**
-     * Get the Teams method
+     * Get the TeamsPlaying method
      */
 
     public String getTeamsPlaying() {

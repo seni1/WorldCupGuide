@@ -33,10 +33,10 @@ public class SamaraFragment extends Fragment {
         ArrayList<Match> matches = new ArrayList<>();
 
         //Add the match information to the ArrayList
-        matches.add(new Match("COSTA-RICA vs SERBIA", "14.06.2018, Thursday, 18:00", "Samara Arena", R.drawable.costa_serb));
-        matches.add(new Match("DENMARK vs AUSTRALIA", "16.06.2018, Saturday, 16:00", "Samara Arena", R.drawable.den_austr));
-        matches.add(new Match("URUGUAY vs RUSSIA", "17.06.2018, Sunday, 18:00", "Samara Arena", R.drawable.urug_rus));
-        matches.add(new Match("SENEGAL vs COLUMBIA", "19.06.2018, Tuesday, 15:00", "Samara Arena",R.drawable.senegal_columb));
+        matches.add(new Match(getString(R.string.costa_serb), getString(R.string.t_costa_serb), getString(R.string.samara), R.drawable.costa_serb));
+        matches.add(new Match(getString(R.string.den_austr), getString(R.string.t_den_aust), getString(R.string.samara), R.drawable.den_austr));
+        matches.add(new Match(getString(R.string.urug_rus), getString(R.string.t_urug_rus), getString(R.string.samara), R.drawable.urug_rus));
+        matches.add(new Match(getString(R.string.senegal_columb), getString(R.string.t_senegal_columb), getString(R.string.samara),R.drawable.senegal_columb));
 
 
         //Create a {@link ArrayAdapter}, whose data source is a list of Strings. The

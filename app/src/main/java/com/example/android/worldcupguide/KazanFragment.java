@@ -33,10 +33,10 @@ public class KazanFragment extends Fragment {
         ArrayList<Match> matches = new ArrayList<>();
 
         //Add the match information to the ArrayList
-        matches.add(new Match("FRANCE vs AUSTRALIA", "16.06.2018, Saturday, 15:00", "Kazan Arena", R.drawable.fra_austr));
-        matches.add(new Match("IRAN vs SPAIN", "20.06.2018, Saturday, 21:00", "Kazan Arena", R.drawable.iran_spain));
-        matches.add(new Match("POLAND vs COLUMBIA", "24.06.2018, Sunday, 21:00", "Kazan Arena", R.drawable.pol_columb));
-        matches.add(new Match("S. KOREA vs GERMANY", "19.06.2018, Wednesday, 17:00", "Kazan Arena", R.drawable.kor_germ));
+        matches.add(new Match(getString(R.string.fra_austr), getString(R.string.t_fra_austr), getString(R.string.kazan), R.drawable.fra_austr));
+        matches.add(new Match(getString(R.string.iran_spain), getString(R.string.t_iran_spain), getString(R.string.kazan), R.drawable.iran_spain));
+        matches.add(new Match(getString(R.string.pol_columb), getString(R.string.t_pol_columb), getString(R.string.kazan), R.drawable.pol_columb));
+        matches.add(new Match(getString(R.string.kor_germ), getString(R.string.t_kor_germ), getString(R.string.kazan), R.drawable.kor_germ));
 
 
         //Create a {@link ArrayAdapter}, whose data source is a list of Strings. The

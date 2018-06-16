@@ -32,10 +32,10 @@ public class StPetersburgFragment extends Fragment {
         ArrayList<Match> matches = new ArrayList<>();
 
         //Add the match information to the ArrayList
-        matches.add(new Match("MOROCCO vs IRAN", "15.06.2018, Friday, 18:00", "St. Petersburg", R.drawable.moroc_iran));
-        matches.add(new Match("RUSSIA vs EGYPT", "19.06.2018, Tuesday, 21:00", "St. Petersburg", R.drawable.rus_egypt));
-        matches.add(new Match("BRAZIL vs COSTA-RICAL", "22.06.2018, Friday, 18:00", "St. Petersburg", R.drawable.braz_costa));
-        matches.add(new Match("NIGERIA vs ARGENTINA", "20.06.2018, Wednesday, 15:00", "St. Petersburg", R.drawable.niger_argen));
+        matches.add(new Match(getString(R.string.morocc_iran), getString(R.string.t_morocc_iran), getString(R.string.v_st_pete), R.drawable.moroc_iran));
+        matches.add(new Match(getString(R.string.rus_egypt), getString(R.string.t_rus_egypt), getString(R.string.v_st_pete), R.drawable.rus_egypt));
+        matches.add(new Match(getString(R.string.braz_costa), getString(R.string.t_braz_costa), getString(R.string.v_st_pete), R.drawable.braz_costa));
+        matches.add(new Match(getString(R.string.niger_argen), getString(R.string.t_niger_argen), getString(R.string.v_st_pete), R.drawable.niger_argen));
 
 
         //Create a {@link ArrayAdapter}, whose data source is a list of Strings. The

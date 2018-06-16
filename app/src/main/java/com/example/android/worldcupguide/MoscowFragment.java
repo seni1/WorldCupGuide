@@ -33,14 +33,14 @@ public class MoscowFragment extends Fragment {
         ArrayList<Match> matches = new ArrayList<>();
 
         //Add the match information to the ArrayList
-        matches.add(new Match("RUSSIA vs SAUDI ARABIA", "14.06.2018, Thursday, 18:00", "Luzhniki", R.drawable.saud_rus));
-        matches.add(new Match("ARGENTIVA vs ICELAND", "16.06.2018, Saturday, 16:00", "Spartak", R.drawable.argen_iceland));
-        matches.add(new Match("GERMANY vs MEXICO", "17.06.2018, Sunday, 18:00", "Luzhniki", R.drawable.germ_mex));
-        matches.add(new Match("POLAND vs SENEGAL", "19.06.2018, Tuesday, 15:00", "Spartak", R.drawable.pol_seneg));
-        matches.add(new Match("PORTUGAL vs MOROCCO", "20.06.2018, Wednesday, 15:00", "Luzhniki", R.drawable.port_moro));
-        matches.add(new Match("BELGIUM vs TUNISIA", "23.06.2018, Saturday, 15:00", "Spartak", R.drawable.belg_tunis));
-        matches.add(new Match("DENMARK vs FRANCE", "26.06.2018, Tuesday, 17:00", "Luzhniki", R.drawable.den_france));
-        matches.add(new Match("SERBIA vs BRAZIL", "27.06.2018, Wednesday, 21:00", "Spartak", R.drawable.serb_braz));
+        matches.add(new Match(getString(R.string.saud_rus), getString(R.string.t_saud_rus), getString(R.string.luzhniki), R.drawable.saud_rus));
+        matches.add(new Match(getString(R.string.argen_iceland), getString(R.string.t_argen_iceland), getString(R.string.spartak), R.drawable.argen_iceland));
+        matches.add(new Match(getString(R.string.germ_mex), getString(R.string.t_germ_mex), getString(R.string.luzhniki), R.drawable.germ_mex));
+        matches.add(new Match(getString(R.string.pol_seneg), getString(R.string.t_pol_seneg), getString(R.string.spartak), R.drawable.pol_seneg));
+        matches.add(new Match(getString(R.string.port_moro), getString(R.string.t_port_moro), getString(R.string.luzhniki), R.drawable.port_moro));
+        matches.add(new Match(getString(R.string.belg_tunis), getString(R.string.t_belg_tunis), getString(R.string.spartak), R.drawable.belg_tunis));
+        matches.add(new Match(getString(R.string.den_france), getString(R.string.t_den_france), getString(R.string.luzhniki), R.drawable.den_france));
+        matches.add(new Match(getString(R.string.serb_braz), getString(R.string.t_serb_braz), getString(R.string.spartak), R.drawable.serb_braz));
 
         //Create a {@link ArrayAdapter}, whose data source is a list of Strings. The
         //adapter knows how to create layouts for each item in the list, using the
